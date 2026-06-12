@@ -12,9 +12,6 @@ wheels/
 # Secrets
 .env
 
-# Generated artifacts / local state
-# Примечание: data/prices.csv, data/news.json, data/knowledge/ — НЕ игнорируем:
-# это зафиксированный снимок данных для воспроизводимости демо (см. README).
 data/raw/
 data/run_result.json
 faiss_index/
@@ -22,10 +19,9 @@ faiss_index/
 *.db
 .gigachat_*
 
-# Документация и рабочие заметки (не относятся к выполнению кода)
 *.md
-docs/
 !README.md
+!docs/*.md
 
 # Отчёты о прогонах (демо-артефакты для защиты)
 !reports/run_report.md
