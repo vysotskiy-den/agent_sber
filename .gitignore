@@ -12,10 +12,9 @@ wheels/
 # Secrets
 .env
 
-# Local data caches / generated artifacts
-data/prices.csv
-data/news.json
-data/knowledge/
+# Generated artifacts / local state
+# Примечание: data/prices.csv, data/news.json, data/knowledge/ — НЕ игнорируем:
+# это зафиксированный снимок данных для воспроизводимости демо (см. README).
 data/raw/
 data/run_result.json
 faiss_index/
