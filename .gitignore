@@ -1,0 +1,29 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets
+.env
+
+# Local data caches / generated artifacts
+data/prices.csv
+data/news.json
+data/knowledge/
+data/raw/
+data/run_result.json
+faiss_index/
+*.sqlite
+*.db
+.gigachat_*
+
+# Документация и рабочие заметки (не относятся к выполнению кода)
+*.md
+docs/
+!README.md
