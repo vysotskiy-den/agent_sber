@@ -27,3 +27,6 @@ faiss_index/
 *.md
 docs/
 !README.md
+
+# Отчёты о прогонах (демо-артефакты для защиты)
+!reports/run_report.md
